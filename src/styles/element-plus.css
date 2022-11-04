@@ -1,0 +1,6 @@
+@import 'element-plus/theme-chalk/dark/css-vars.css';
+
+html.dark .theme-toggler.el-switch.is-checked .el-switch__core {
+  background-color:#2f2f2f;
+  border-color: rgb(84 84 84 / 65%);
+}
