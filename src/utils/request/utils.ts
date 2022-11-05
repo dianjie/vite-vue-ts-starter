@@ -46,7 +46,7 @@ export function formatRequestDate(params: Recordable) {
 }
 
 // 将对象转为Url参数
-export function setObjToUrlParams(baseUrl: string, obj: ObjectType): string {
+export function setObjToUrlParams(baseUrl: string, obj: Recordable): string {
   let parameters = ''
   for (const key in obj) {
     parameters += `${key}=${encodeURIComponent(obj[key])}&`

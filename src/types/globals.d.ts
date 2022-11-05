@@ -19,7 +19,3 @@ declare interface Fn<T = any, R = T> {
 declare type TargetContext = '_self' | '_blank'
 
 declare type Nullable<T> = T | undefined | null
-
-declare type ObjectType = {
-  [key: string]: any
-}
