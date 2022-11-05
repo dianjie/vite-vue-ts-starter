@@ -29,7 +29,6 @@ export default ({ mode }: ConfigEnv): UserConfig => {
     server: {
       port: 5173,
       host: '0.0.0.0',
-      // @ts-ignore
       proxy: createProxy(proxyConfig[mode].proxy)
     }
   }

@@ -15,7 +15,6 @@ import type { AxiosRequestConfig } from 'axios'
 const env = import.meta.env.MODE || 'development'
 
 // 如果是mock模式 或 没启用直连代理 就不配置host 会走本地Mock拦截 或 Vite 代理
-// @ts-ignore
 const { urlPrefix, apiUrl: tempApi } = proxy[env]
 const apiUrl = env === 'mock' || !proxy.isRequestProxy ? '' : tempApi
 

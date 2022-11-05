@@ -139,7 +139,6 @@ export class VAxios {
       data: formData,
       headers: {
         'Content-type': 'multipart/form-data;charset=UTF-8',
-        // @ts-ignore
         ignoreCancelToken: true
       }
     })
