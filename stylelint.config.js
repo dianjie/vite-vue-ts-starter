@@ -1,4 +1,3 @@
-/* eslint-env node */
 module.exports = {
   root: true,
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
