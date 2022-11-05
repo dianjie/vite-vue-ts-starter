@@ -6,7 +6,7 @@ export default {
     urlPrefix: '/api',
     proxy: [['/api', 'http://xxx.com', true]]
   },
-  release: {
+  production: {
     // 正式环境接口地址
     apiUrl: '',
     urlPrefix: '/api',
