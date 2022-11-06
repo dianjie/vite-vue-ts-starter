@@ -21,5 +21,15 @@ module.exports = {
       jsx: true
     },
     ecmaVersion: 'latest'
-  }
+  },
+  rules: {},
+  overrides: [
+    {
+      files: ['./**/*.vue'],
+      rules: {
+        'vue/component-name-in-template-casing': ['error', 'kebab-case'],
+        'vue/multi-word-component-names': 0
+      }
+    }
+  ]
 }
