@@ -26,7 +26,8 @@ module.exports = {
         'rules'
       ],
       { severity: 'warning' }
-    ]
+    ],
+    'no-empty-source': null
   },
   overrides: [
     {
