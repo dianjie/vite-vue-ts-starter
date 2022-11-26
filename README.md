@@ -4,6 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Develop-Vite-747bff)](https://vitejs.dev)
 [![Pinia](https://img.shields.io/badge/Store-Pinia-f7d336)](https://pinia.vuejs.org)
+[![node-current](https://img.shields.io/node/v/vite)](https://nodejs.org/en/about/releases/)
 
 Vue template for starter using Vue3 + TypeScript + Vite + Pinia 🚀
 
